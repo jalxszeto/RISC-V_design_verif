@@ -635,7 +635,7 @@ EXTERNAL_PORT_ONLY_WHEN_DISABLED:
 ```
 
 **Evidence that it detects a violation:** Forced `cpu_if.cpu_active = 1` then issued `xbar_write` to DMEM word 0 so that `w_en` is high while the CPU is active.
-![EXTERNAL_PORT_ONLY_WHEN_DISABLED firing](<Screenshot 2026-09-27 at 23.14.48-1.png>)
+![EXTERNAL_PORT_ONLY_WHEN_DISABLED firing](<screenshots/Screenshot 2026-09-27 at 23.14.48-1.png>)
 Passed with 0 assertion failures after the force was commented out (see "REVERTED ASSERTION VIOLATIONS" in `cpu_tb_top`)
 
 ### 3.2 — `SRAM_WINDOW_RESPONDS_NEXT_CYCLE`
@@ -650,7 +650,7 @@ SRAM_WINDOW_RESPONDS_NEXT_CYCLE:
 ```
 
 **Evidence that it detects a violation:** Forced `cpu_if.rready = 0` then read one word of DMEM so that SRAM read is not ready on the next cycle.
-![SRAM_WINDOW_RESPONDS_NEXT_CYCLE firing](<Screenshot 2026-09-27 at 23.16.46-1.png>)
+![SRAM_WINDOW_RESPONDS_NEXT_CYCLE firing](<screenshots/Screenshot 2026-09-27 at 23.16.46-1.png>)
 Passed with 0 assertion failures after the force was commented out (see "REVERTED ASSERTION VIOLATIONS" in `cpu_tb_top`)
 
 ### 3.3 — `REG_WINDOW_RESPONDS_SAME_CYCLE`
@@ -665,7 +665,7 @@ REG_WINDOW_RESPONDS_SAME_CYCLE:
 ```
 
 **Evidence that it detects a violation:** Forced `cpu_if.rready = 0` then read back register x0 so that the register-file read is not ready in the same cycle
-![REG_WINDOW_RESPONDS_SAME_CYCLE firing](<Screenshot 2026-09-27 at 23.17.51-1.png>)
+![REG_WINDOW_RESPONDS_SAME_CYCLE firing](<screenshots/Screenshot 2026-09-27 at 23.17.51-1.png>)
 Passed with 0 assertion failures after the force was commented out (see "REVERTED ASSERTION VIOLATIONS" in `cpu_tb_top`)
 
 ### 3.4 — `CPU_RELEASES_AFTER_HALT`
@@ -680,7 +680,7 @@ CPU_RELEASES_AFTER_HALT:
 ```
 
 **Evidence that it detects a violation:** Forced `cpu_if.cpu_active = 1` then switched `halt_cpu = 1` for one cycle so that after 4 cycles CPU is still active even two cycles after halt request.
-![CPU_RELEASES_AFTER_HALT firing](<Screenshot 2026-09-27 at 23.19.31-1.png>)
+![CPU_RELEASES_AFTER_HALT firing](<screenshots/Screenshot 2026-09-27 at 23.19.31-1.png>)
 Passed with 0 assertion failures after the force was commented out (see "REVERTED ASSERTION VIOLATIONS" in `cpu_tb_top`)
 
 ### 3.5 — `RESET_RELEASES_CPU`
@@ -695,7 +695,7 @@ RESET_RELEASES_CPU:
 ```
 
 **Evidence that it detects a violation:** Forced `cpu_if.cpu_active = 1` during `drv.reset_task()` so that CPU is still active even one cycle after reset
-![RESET_RELEASES_CPU firing](<Screenshot 2026-09-27 at 23.20.49-1.png>)
+![RESET_RELEASES_CPU firing](<screenshots/Screenshot 2026-09-27 at 23.20.49-1.png>)
 Passed with 0 assertion failures after the force was commented out (see "REVERTED ASSERTION VIOLATIONS" in `cpu_tb_top`)
 
 ## 4. Encrypted CPU Bug Hunt
@@ -780,7 +780,7 @@ prog = '{
 
 ### Waveform evidence
 
-![Bug 1 waveform](waveform1.png)
+![Bug 1 waveform](<screenshots/waveform1.png>)
 
 ### Conclusion
 
@@ -885,7 +885,7 @@ prog = '{
 
 ### Waveform evidence
 
-![Bug 2 waveform](<Screenshot 2026-09-30 at 20.54.33.png>)
+![Bug 2 waveform](<screenshots/Screenshot 2026-09-30 at 20.54.33.png>)
 
 ### Conclusion
 
@@ -991,7 +991,7 @@ prog = '{
 
 ### Waveform evidence
 
-![Bug 3 waveform](<Screenshot 2026-09-30 at 21.28.55.png>)
+![Bug 3 waveform](<screenshots/Screenshot 2026-09-30 at 21.28.55.png>)
 
 ### Conclusion
 
