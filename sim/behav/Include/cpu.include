@@ -1,0 +1,27 @@
+// Source list for simulating the RISC-V CPU with the testbench.
+
+// Chip RTL
+../../src/verilog/CF_SRAM_1024x32.tt_180V_25C.v
+../../src/verilog/sram_wrapper.sv
+../../src/verilog/memory_controller.sv
+../../src/verilog/chip_top.sv
+
+// CPU RTL
+../../src/verilog/cpu/cpu_pkg.sv
+../../src/verilog/cpu/reg_file.sv
+../../src/verilog/cpu/fetch.sv
+../../src/verilog/cpu/decode.sv
+../../src/verilog/cpu/execute.sv
+../../src/verilog/cpu/cpu_top.sv
+
+// Testbench
+../../src/verilog/tb/cpu_if.sv
+../../src/verilog/tb/cpu_seq_item.svh
+../../src/verilog/tb/cpu_xbar_item.svh
+../../src/verilog/tb/cpu_ref_model.svh
+../../src/verilog/tb/cpu_sequencer.svh
+../../src/verilog/tb/cpu_driver.svh
+../../src/verilog/tb/cpu_monitor.svh
+../../src/verilog/tb/cpu_sb.svh
+../../src/verilog/tb/cpu_tb_pkg.sv
+../../src/verilog/tb/cpu_tb_top.sv

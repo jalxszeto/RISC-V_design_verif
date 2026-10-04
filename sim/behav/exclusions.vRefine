@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<refinement-file-root>
+  <information comment-version="2" creation-time="Sat 19 Sep 2026 21:58:30 EDT" creator="user" csCheck="false" save-ref-method="seq" tool-version="Cadence Verisium Manager25.09" rules-signature-c="5afb555bef40c3c4e3e350ecedd8410">
+    <ucm-files>
+      <ucm-file domain="icc" modelCheckSum="1706311643" path="cov_work/scope/icc_65b43fdb_648f2f2c.ucm"></ucm-file>
+    </ucm-files>
+    <ccf-files></ccf-files>
+  </information>
+  <rules>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/addr_i/1" entityType="toggle-bit" excTime="1789867536" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/addr_i/0" entityType="toggle-bit" excTime="1789867539" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/core_isram_rdata/3" entityType="toggle-bit" excTime="1789867626" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/core_isram_rdata/2" entityType="toggle-bit" excTime="1789867629" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/mem_ctrl/core_isram_rdata_o/3" entityType="toggle-bit" excTime="1789867720" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/mem_ctrl/core_isram_rdata_o/2" entityType="toggle-bit" excTime="1789867724" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/mem_ctrl/addr_i/0" entityType="toggle-bit" excTime="1789867729" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/mem_ctrl/addr_i/1" entityType="toggle-bit" excTime="1789867732" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/isram_rdata_i/2" entityType="toggle-bit" excTime="1789869318" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/isram_rdata_i/3" entityType="toggle-bit" excTime="1789869321" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/instr_o/2" entityType="toggle-bit" excTime="1789869334" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/instr_o/3" entityType="toggle-bit" excTime="1789869337" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/0" entityType="toggle-bit" excTime="1789869393" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/1" entityType="toggle-bit" excTime="1789869396" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/31" entityType="toggle-bit" excTime="1789869414" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/30" entityType="toggle-bit" excTime="1789869414" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/29" entityType="toggle-bit" excTime="1789869414" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/28" entityType="toggle-bit" excTime="1789869414" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/27" entityType="toggle-bit" excTime="1789869414" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/26" entityType="toggle-bit" excTime="1789869414" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/25" entityType="toggle-bit" excTime="1789869414" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/24" entityType="toggle-bit" excTime="1789869414" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/23" entityType="toggle-bit" excTime="1789869414" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/22" entityType="toggle-bit" excTime="1789869414" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/21" entityType="toggle-bit" excTime="1789869414" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/20" entityType="toggle-bit" excTime="1789869414" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/19" entityType="toggle-bit" excTime="1789869414" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/18" entityType="toggle-bit" excTime="1789869414" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/17" entityType="toggle-bit" excTime="1789869414" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/16" entityType="toggle-bit" excTime="1789869414" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/15" entityType="toggle-bit" excTime="1789869414" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/14" entityType="toggle-bit" excTime="1789869414" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/13" entityType="toggle-bit" excTime="1789869414" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/pc_o/12" entityType="toggle-bit" excTime="1789869414" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/31" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/30" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/29" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/28" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/27" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/26" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/25" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/24" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/23" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/22" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/21" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/20" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/19" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/18" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/17" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/16" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/15" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/14" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/13" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/1" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="cpu_tb_top/dut/cpu/u_fetch/next_pc/0" entityType="toggle-bit" excTime="1789869442" name="exclude" reviewer="1" user="0" vscope="default"></rule>
+  </rules>
+  <cache-map>
+    <cache-entry key="0" value="user"></cache-entry>
+    <cache-entry key="1" value="unknown"></cache-entry>
+  </cache-map>
+</refinement-file-root>
